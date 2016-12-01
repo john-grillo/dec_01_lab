@@ -1,5 +1,5 @@
 'use strict'
-alert('the conversions.js file works. shame on you');
+// alert('the conversions.js file works. shame on you');
 //conversions.js is written by John A. Grillo
 //github: www.github.com/john-grillo
 
@@ -19,18 +19,16 @@ var in_to_cm = 2.54;
 var mi_to_km = 1.60934;
 var km_to_mi = 0.621371;
 var lb_to_kg = 0.453592;
-var
-var
-var
+
 
 /************************************
-***FUNCTION DECLARATIONS - DISTANCE**
+** FUNCTION DECLARATIONS - DISTANCE *
 *************************************/
 // inches to/from centimeters
 // miles to/from kilometers
 
 function inchesToCentimeters(inches) {
-  return Math.round((inches * 2.54) 100) / 100;
+  return Math.round(((inches * 2.54) * 100) / 100);
 };
 
 function milesToKilometers(mi, km) {
@@ -39,7 +37,7 @@ function milesToKilometers(mi, km) {
 
 
 /************************************
-***FUNCTION DECLARATIONS - WEIGHT****
+** FUNCTION DECLARATIONS - WEIGHT ***
 *************************************/
 // pounds to/from kilograms
 // English shit-ton to metric shit-ton
