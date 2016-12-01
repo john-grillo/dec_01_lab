@@ -1,5 +1,6 @@
 'use strict'
-alert('the conversions.js file works. shame on you');
+<<<<<<< HEAD
+//alert('the conversions.js file works. shame on you');
 //conversions.js is written by John A. Grillo
 //github: www.github.com/john-grillo
 
