@@ -12,31 +12,29 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
   <body>
+    <p>Click <a href="index.html">here</a> to go to the home page.</p>
 
-    <h1>Temperature Converter</h1>
+    <h1>Converter App</h1>
 
-  <h3>Enter the temp you want to convert</>
+  <h3>Enter the number that you want to convert</>
   <br>
   <br>
+
   <div id="input">
-
-  </div>
-
   <form>
-      <label for="temp">Temp:</label>
-      <input id="temp" type="text" size="10" />
+      <label for="temp">input:</label>
+      <input id="temp" type="text" size="18" />
 
-    <!--
-  		<input type="radio" name="group1" value="F" checked>F
-  		//<input type="radio" name="group1" value="C">C<br>
-  	-->
-  </form>
+
 
   <br>
     <button id="runCode" onclick="execCode()">Click to Convert to F</button>
     <button id="runCode2" onclick="execCode2()">Click to Convert to C</button>
   <br>
-  <br>
+
+  </form>
+  </div>
+
 
   <div id="out">
     <textarea id="output" rows="10" cols="44"></textarea>
@@ -45,7 +43,6 @@
   <br>
   <button type="button" onclick="clr()">Clear</button>
 
-  <h2>Richard Farr</h2>
 
 
 
