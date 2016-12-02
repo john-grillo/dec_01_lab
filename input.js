@@ -16,6 +16,7 @@ function execCode() {
     println('Thats " +temp +" degrees F');
   }
 }
+
 function execCode2() {
   //alert("hey");
   //checkInput(temp);
@@ -40,7 +41,6 @@ function newRound(num, places) {
   temp = temp / tens;
   return temp;
 }
-
 
 
 
@@ -71,19 +71,11 @@ function getElement(id) {
   return document.getElementById(id);
 }
 
-//function checkInput(temp) {
-// var ok = true;
-//  if (isNaN(temp)) {
-//    println("Invalid value for temp");
-//    ok = false;
-//  }
-//  return ok;
-// }
 
 
 // Clear the 'output' text area
 function clr() {
   //alert("hey");
   var out = getElement('output');
-  out.value = '';
+  out.value = ' ';
 }
